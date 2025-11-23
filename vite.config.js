@@ -3,6 +3,10 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/SveltNote/',
-  root: '.'   // facultatif, mais s’assure que la racine est correcte
+  build: {
+    rollupOptions: {
+      input: 'src/components/main.jsx', // ton point d’entrée réel
+    }
+  },
+  base: '/<SveltNote>/' // pour GitHub Pages
 })
