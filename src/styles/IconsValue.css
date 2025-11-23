@@ -1,0 +1,133 @@
+.IconsValue{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 17%;
+    margin: 3% 1%;
+    
+}
+
+.TitleValues h2{
+    text-align: center;
+    font-weight: 800;
+    font-family: Montserrat;
+    padding: 1.2%;
+    margin: 2%;
+    margin-top: 500px;
+}
+
+
+.IconsValue img{
+    height: 160px;
+}
+
+.IconsValueContainer1, .IconsValueContainer2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 23%;
+}
+
+.LabelBoxIcons{
+    text-align: center;
+}
+
+
+.Values{
+    margin-top: -200px;
+    margin-bottom: 200px;
+}
+
+
+.DescValuesContainerImg img{
+    width: 400px;
+    border-radius: 24px;
+    z-index: 2;
+
+    
+}
+
+.DescValuesContainerImg{
+    z-index: 2;
+
+}
+
+.DescValues{
+    padding: 0 250px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.DescValuesContainerText{
+    padding: 20px 0px 20px 150px;
+    z-index: 1;
+
+    
+}
+
+.DescValuesContainerText h2{
+    margin-bottom: 20px;
+    
+}
+.DescValuesContainerText p{
+
+    font-size: clamp(12px, 2vw, 24px);
+    line-height: 40px;
+}
+
+.DescValuesContainerText h2{
+    
+
+}
+
+
+@media (max-width: 1000px) {
+    .IconsValueContainer1, .IconsValueContainer2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 23%;
+    }
+    .IconsValue{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5%;
+        margin: 3% 1%;
+    }
+    .IconsValueUnit{
+        margin-bottom: 50px;
+    }
+    .DescValues {
+        padding: 0 250px;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .DescValuesContainerImg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .DescValuesContainerText{
+        max-width: 83vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 30px 10px 30px;
+    }
+    .DescValuesContainerText p {
+        font-size: clamp(18px, 2vw, 24px);
+        line-height: 30px;
+      }
+      .Values {
+        margin-top: -200px;
+        margin-bottom: -100px;
+      }
+
+}

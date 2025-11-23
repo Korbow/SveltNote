@@ -1,0 +1,93 @@
+
+.Testimonial{
+    padding: 2% 3%;
+    margin-top: 150px;
+
+}
+
+.ContainerTestimonials h2{
+    text-align: center;
+    font-weight: 800;
+    font-family: Montserrat;
+    padding: 1.2%;
+    margin: 2%
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #fff;
+    color: #111;
+    font-family: system-ui, sans-serif;
+    overflow: hidden;
+  }
+
+
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    max-width: 1500px;
+  }
+
+  .line {
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  .track {
+    display: inline-block;
+    white-space: nowrap;
+    animation: scroll-left linear infinite;
+  }
+
+  .reverse .track {
+    animation: scroll-right linear infinite;
+  }
+
+  /* animations */
+  @keyframes scroll-left {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  @keyframes scroll-right {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+  }
+
+  /* vitesse */
+  .track {
+    animation-duration: 40s;
+  }
+
+  .reverse .track {
+    animation-duration: 50s;
+  }
+
+  /* pause au survol */
+  .carousel:hover .track {
+    animation-play-state: paused;
+  }
+
+  /* espacement entre témoignages */
+  .testimonial {
+    display: inline-block;
+    margin-right: 52px;
+    border:2px solid #ffffff00;
+    padding: 0.1% 0.1%;
+  }
+
+  .CenterCarousel{
+    display: flex;
+    justify-content: center;
+  }
+

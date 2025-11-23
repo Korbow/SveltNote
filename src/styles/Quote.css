@@ -1,0 +1,122 @@
+#svgLineSp{
+    stroke:rgb(0, 0, 0);
+    stroke-width: 5;
+}
+
+.svgSpQuote{
+    display:flex;
+    justify-content: center;
+    margin: 0% 4% 0% 4%;  
+}
+
+.svgSpQuote svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+#svgLineSpQuote{
+    stroke: black;
+    stroke-width: 5;
+    stroke-linecap: round;
+ 
+}
+.lineQuote img{
+    width: 150px;
+    height: 150px;
+    vertical-align: baseline;
+    
+}
+
+.lineQuote h3{
+    font-size: 0px;
+    font-family: EduHand;
+    opacity: 0;
+    
+    filter: blur(10px), drop-shadow(10px);
+
+    transition: none;
+}
+
+.lineQuote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+.centerQuote{
+    display: flex;
+    justify-content: center;
+}
+
+.imgQuote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Quote{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+
+.Appear_Book {
+    position: absolute;
+    top: 420%;
+    left: -510px;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  
+  .Appear_Pen {
+    
+    position: absolute;
+    top: 270%;
+    right: -850px;
+    opacity: 0;
+    transform: rotate(-20deg);
+  }
+  
+  .Appear_Paper {
+    position: absolute;
+    top: 500%;
+    right: -850px;
+    opacity: 0;
+    transform: rotate(-70deg);
+    width: 300px;
+  }
+
+  @media (max-width: 1000px) {
+    .Appear_Book {
+        display: none;
+      }
+      
+      .Appear_Pen {
+        display: none;
+      }
+      
+      .Appear_Paper {
+        display: none;
+      }
+    .lineQuote{ 
+        max-width: 62%;
+    }
+    #quote-text{
+        max-width: 62%;
+        text-align: center;
+        font-size: clamp(50px, 9vw, 110px) !important;
+    }
+    .pin-spacer{
+        height: 1300px !important;
+    }
+
+
+
+
+
+
+  }

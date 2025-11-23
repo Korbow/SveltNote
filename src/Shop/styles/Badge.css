@@ -1,0 +1,34 @@
+.badge {
+	padding: 2px 4px;
+	border-radius: 3px;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.badge-sale {
+	background-color: #ff4d4d;
+	color: white;
+	width: 35px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+
+.badge-best {
+	background-color: #09a839;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	
+}
+
+.BadgeProduct{
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	display: flex;
+	gap: 6px;
+	z-index: 2;
+}

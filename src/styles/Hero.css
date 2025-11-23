@@ -1,0 +1,277 @@
+.Hero{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.HeroSection {
+    z-index: -1;
+    height: 950px;
+
+  }
+
+  .PinSection {
+    transform: none !important;
+
+  }
+  .pin-spacer {
+    padding: 0 !important;
+  }
+
+  .SpaceGSAP{
+    height: 840px;
+  }
+
+
+.HeroConteneurFlex{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+
+}
+
+.HeroConteneurFlex h1{
+    font-size: clamp(20px, 6vw, 120px);
+    font-family: MontserratT;
+
+}
+
+.HeroConteneurFlex h6{
+    font-size: clamp(20px, 2vw, 40px);
+    padding: 1.2%;
+    font-weight: 400;
+    font-family: NotoTTSans;
+}
+
+.animated-title {
+    overflow: visible;
+}
+
+.animated-title span {
+    display: inline-block;
+    white-space: pre;
+    will-change: transform, opacity;
+}
+
+.HeroMiddleImg{
+    height: 100vh;
+}
+
+
+.HeroImg{
+    height: 100%;
+    
+
+    object-fit: cover;
+    margin: "0 auto"
+
+}
+
+.HeroImg img{
+    height: clamp(100px, 90vw, 850px);
+    width: 100%;
+    display: block;
+}
+
+
+.HeroEnd{
+    display: flex;
+    justify-content: center;
+    padding: 1% 1%;
+}
+
+.Jkamin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    width: fit-content;
+    
+}
+.Jkamin .button {
+    
+    border: none;
+    
+    background-color: #151515;
+    color: #eee;
+    border-radius: 7px;
+
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    font-size: 20px;
+    padding: 4% 6%;
+
+    font-family: NotoTTSans;
+    
+    
+    white-space: nowrap;
+   text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .button svg{
+    width: 56px;
+    height: 35px;
+  }
+
+  .button2 svg{
+    width: 46px;
+    height: 30px;
+  }
+
+  .Jkamin .button2 {
+    
+    border: none;
+    border: #151515 solid;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 7px;
+
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    font-size: 20px;
+    padding: 4% 7%;
+
+
+
+    font-family: NotoTTSans;
+    
+    transition: all 0.4s ease;
+    
+    white-space: nowrap;
+   text-align: center;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+  }
+  .button2 .svg{
+    fill: white;
+  }
+  .button2:hover {
+    transform: translateX(12px) scale(1.02);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .button:hover {
+    transform: translateY(-8px);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+  
+  .button-span {
+    color: #e6e6e6;
+  }
+
+
+
+
+.Jkamin button{
+    margin: 2% 6%;
+    padding: 1% 3%;
+}
+
+
+
+
+
+.Jkamin .button svg path{
+    
+}
+
+
+.OverlayText{
+    position: absolute;
+    top: 9.5%; 
+    left: 7%;
+    font-size: 130%;
+    transform-origin: top left;
+    color: black;
+    width: 84%;
+    height: 84%;
+    object-fit: cover;
+    line-height: 2rem;
+    font-family: custom;
+    z-index: 20;
+}
+
+.OverlayText{
+    text-align: center;
+    opacity: 0.3;
+}
+
+.CenterNote{
+
+}
+.CenterNoteHigh{
+
+}
+
+.ListNote{
+    line-height: 5.85rem;
+}
+
+@media (max-width: 1000px) {
+	.ListNote {
+		line-height: clamp(100%, 10vw, 450%);
+	}
+  .OverlayText{
+      font-size: clamp(20%, 2.5vw, 130%);
+      top: clamp(3%, 3vw, 4.5%);
+  }
+  .CenterNote {
+      display: block;
+      line-height: 1.8; /* ratio relatif à la taille de la police */
+    }
+
+  .HeroSection {
+    z-index: -1;
+    height: clamp(300px, 100vw, 850px);
+
+  }
+  /*
+  .button svg{
+    width: clamp(10px, 4vw, 56px);
+    height: clamp(6px, 4vw, 35px);
+  }
+
+  .button2 svg{
+    width: clamp(10px, 4vw, 46px);
+    height: clamp(6px, 4vw, 30px);
+  }
+    */
+  .span{
+  font-size: clamp(8px, 3vw, 15px);
+  }
+  .Jkamin{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  }
+  .ContainerThreeCase {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .OverlayText {
+  }
+  .card {
+    margin-bottom: 40px;
+  }
+  .line {
+
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+

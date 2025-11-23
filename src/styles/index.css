@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow-x: hidden; /* pour éviter un scroll horizontal si besoin */
+  overflow-y: auto;   /* permet le scroll vertical */
+}
+

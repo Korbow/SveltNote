@@ -1,0 +1,38 @@
+.lmj-categories {
+	display: flex;
+	justify-content: flex-end; /* ← Sépare à gauche/droite */
+	align-items: end;
+	padding-top: 30px;
+	padding-right: 2%;
+	
+}
+
+
+.lmj-categories-select {
+	margin-right: 15px;
+	border: 2px solid #0000;
+	border-radius: 1.1rem 1.1rem 1.1rem 1.1rem;
+	width: 150px;
+	height: 30px;
+}
+
+.SelectCategories {
+	margin-right: 15px;
+	border: 2px solid #0000;
+	border-radius: 1.1rem 1.1rem 1.1rem 1.1rem;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.ResetCategories{
+	background: white;
+	border: none;
+	align-items: center;
+	display: flex;
+
+}
+

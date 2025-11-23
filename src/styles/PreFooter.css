@@ -1,0 +1,183 @@
+.FlexPreFooter{
+    margin: 4% 0%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    width: 100%;
+}
+
+.PreFooterCadreA{
+    width: 25%;
+    margin: 3% 7%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.Ticket{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#h5line{
+    margin-bottom: 10%;
+    font-size: clamp(15px, 3vw, 30px);
+    color: white;
+    font-family: MontserratT;
+}
+
+#pline{
+    margin-bottom: 10%;
+    font-size: clamp(12px, 2vw, 20px);
+    color: white;
+}
+
+.PreFooterCadreB{
+    width: 25%;
+    margin: 3% 7%;
+    display: flex;
+    justify-content: center;
+    background: none;
+}
+#Cadre1img{
+    width: 300px;
+}
+
+
+
+.PreFooterCadreA img,
+.PreFooterCadreB img {
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.466))
+            drop-shadow(0 0 40px rgba(255, 255, 255, 0.479));
+}
+
+
+.btn-shine {
+    padding: 12px 48px;
+    color: #fff;
+    background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+  }
+  @-moz-keyframes shine {
+    0% {
+        background-position: 0;
+      }
+      40% {
+        background-position: 180px;
+      }
+      80% {
+        background-position: 340px;
+      }
+      100% {
+          background-position: 360px;
+        }
+    }
+  @-webkit-keyframes shine {
+    0% {
+        background-position: 0;
+      }
+      40% {
+        background-position: 180px;
+      }
+      80% {
+        background-position: 340px;
+      }
+      100% {
+          background-position: 360px;
+        }
+    }
+  @-o-keyframes shine {
+    0% {
+        background-position: 0;
+      }
+      40% {
+        background-position: 180px;
+      }
+      80% {
+        background-position: 340px;
+      }
+      100% {
+          background-position: 360px;
+        }
+    }
+  @keyframes shine {
+    0% {
+        background-position: 0;
+      }
+      40% {
+        background-position: 180px;
+      }
+      80% {
+        background-position: 340px;
+      }
+      100% {
+          background-position: 360px;
+        }
+    }
+  
+    .btn-shine:hover{
+      font-size: 26px;
+    }
+
+    @media (max-width: 1000px) {
+      .FlexPreFooter {
+        margin: 4% 0%;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        min-height: 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      }
+      .Ticket h5{
+        font-size: clamp(25px, 3vw, 30px) !important;
+        margin-bottom: 5% !important;
+      }
+      .Ticket a{
+        font-size: clamp(18px, 2vw, 20px) !important;
+        margin-bottom: 5% !important;
+      }
+
+      .PreFooterCadreA{
+        display: none;
+      }
+      .PreFooterCadreB{
+        display: none;
+      }
+
+      .FooterName{
+        text-align: center;
+        font-size: clamp(200px, 20vw, 800px)!important;
+        max-width: 100%;
+      }
+      .FooterName h6{
+
+        max-width: 100vw;
+      }
+      .contactFooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: clamp(0.5%, 1vw, 4%) !important;
+      }
+      .contactText{
+        margin: -1% 2% !important;
+      }
+  }

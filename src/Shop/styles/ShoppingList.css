@@ -1,0 +1,163 @@
+.lmj-shopping-list {
+	width: 100%;
+}
+
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px 32px 32px 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.desc{
+	display: flex;
+	flex-direction: row;
+	
+	padding: 1% 5%;
+
+	justify-content: space-between;
+
+}
+
+.descInfo{
+	
+}
+
+.tag {
+	align-self: center;
+	color: var(--title-color-hover);
+	font-family: Lato, Montserrat, Helvetica, Arial, sans-serif;
+  }
+
+.desc button{
+	display: flex;
+	border: 2px solid #0000;
+	border-radius: 1.1rem 1.1rem 1.1rem 1.1rem;
+	margin: 0 5% 0 0;
+	width: 60px;
+	height: 60px;
+	translate: 1rem;
+	background: #413f3f;
+	transition: ease all 0.63s;
+	outline-offset: 2px;
+	position: relative;
+	color: white;
+	display: flex;
+	justify-content: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		
+
+}
+
+.desc button:hover {
+	background: linear-gradient(#eee, #ddd);
+	transition: ease all 0.63s;
+	border: 2px solid black ;
+
+	border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+}
+
+.desc button:active {
+	background: linear-gradient(#eee, #ddd);
+	transition: ease all 0.1s;
+	border: 2px solid black ;
+
+	border-radius: 1.35rem 1.35rem 1.35rem 1.35rem;
+}
+
+.desc button svg{
+	color: white;
+	fill: rgb(255, 255, 255);
+	transition: ease all 0.63s; 
+
+}
+
+.desc button:hover svg{
+	color: white;
+	fill: black;
+	transition: ease all 0.63s; 
+}
+
+.desc button svg circle {
+	fill: white;
+	transition: ease all 0.63s;
+  }
+
+  .desc button:hover svg circle {
+	fill: black; 
+	transition: ease all 1.1s;
+
+  }
+
+
+
+
+  
+  #particle-btn {
+	border-radius: 12px;
+	cursor: pointer;
+	transition: transform 0.2s ease;
+  }
+  
+  #particle-btn:hover {
+	transform: scale(1.00);
+  }
+  
+  .particle {
+	position: absolute;
+	border-radius: 50%;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	animation: explode 700ms ease-out forwards;
+	color: black;
+}
+
+@keyframes explode {
+	from {
+		transform: translate(0, 0) scale(1);
+		opacity: 1;
+	}
+	to {
+		transform: translate(var(--x), var(--y)) scale(0.3);
+		opacity: 0;
+	}
+}
+
+.cart-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cart-icon {
+	position: absolute;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.check-icon {
+	position: absolute;
+	transform: scale(0);
+	opacity: 0;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	fill: black;
+}
+
+.check-icon:hover path{
+	fill: white;
+	
+}
+/* Quand on clique */
+.cart-container.checked .cart-icon {
+	transform: translateY(140px) scale(0.6) rotate(0deg);
+	opacity: 0;
+}
+
+.cart-container.checked .check-icon {
+	transform: scale(1);
+	opacity: 1;
+}

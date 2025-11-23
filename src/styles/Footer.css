@@ -1,0 +1,39 @@
+#svgLineSp{
+    stroke:rgb(0, 0, 0);
+    stroke-width: 5;
+}
+
+.svgSp{
+    display:flex;
+    justify-content: center;
+    margin: 7% 4% 1% 4%;
+    
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    width: 100%;
+}
+
+.FooterName{
+    width: 100%;
+    font-weight: 400;
+    font-size: clamp(200px, 400px, 800px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 5%;
+}
+
+.contactText{
+    margin: -1% 6%;
+}

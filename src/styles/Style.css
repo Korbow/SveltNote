@@ -1,0 +1,36 @@
+@font-face {
+    font-family: MontserratT;
+    src: url(../../public/font/Montserrat/static/Montserrat-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: NotoTTSans;
+    src: url(../../public/font/Noto_Sans/static/NotoSans-Regular.ttf);
+    font-weight: thin;
+  }
+
+  @font-face {
+    font-family: custom;
+    src: url(../../public/font/Noto_Sans/static/NotoSans-Regular.ttf);
+    font-weight: bold;
+  }
+  @font-face {
+    font-family: EduHand;
+    src: url(../../public/font/animal_chariot/Animal\ Chariot.ttf);
+    font-weight: bold;
+  }
+
+:root {
+    --title-font: 
+    --desc-font: rgb(0, 0, 0);
+    --carnet-font: rgb(0, 0, 0);
+  }
+  
+  body {
+    cursor: url('../assets/img/featherSVG.png') 4 35, auto;
+}
+
+.NoOverflow{
+  overflow: hidden;
+}

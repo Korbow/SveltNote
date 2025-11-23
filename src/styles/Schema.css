@@ -1,0 +1,179 @@
+.PreFooter{
+    margin: 4% 0%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+
+
+
+
+/* Start of Schema Styling */
+
+
+
+.Schema{
+    display: flex;
+    justify-content: center;
+    margin: 5% 4%
+}
+.Schema .RectangleView{
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  height: 750px;
+  border: solid;
+}
+.RectangleView{
+  background: white;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+
+.step {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    
+    
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.step h5{
+    font-family: MontserratT;
+    font-size: 180%;
+}
+
+.step p{
+    text-align: center;
+}
+  
+  /* Exemple : positions pour 5 étapes du processus */
+  .step1 { top: 20%; left: 15%; }
+  .step2 { top: 20%; left: 80%; }
+  .step3 { top: 50%; left: 48%; }
+  .step4 { top: 80%; left: 20%; }
+  .step5 { top: 80%; left: 80%; }
+
+
+
+  .path {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    z-index: 20;
+  }
+
+  #corectpath{
+    transform: rotate(35deg) ;
+    z-index: 5;
+    fill: rgb(0, 0, 0);
+
+  }
+
+  .path1 { top: 20%; left: 42%; 
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .path2 { 
+    width: 189px;
+    height: 78px;
+    top: 30%;
+    left: 56%;
+    position: absolute;
+    transform: rotate(145deg);
+  }
+
+  .path3 { 
+    width: 60px;
+    height: 70px;
+    top: 61%;
+    left: 7%;
+    position: absolute;
+    
+  }
+  .path4 { 
+    width: 60px;
+    height: 70px;
+    top: 46%;
+    left: 13%;
+    position: absolute;
+    stroke-width: 4;
+    
+  }
+
+  .path5 { 
+    width: 60px;
+    height: 70px;
+    top: 74%;
+    left: 28%;
+    position: absolute;
+    stroke-width: 4;
+    
+  }
+
+  .path6 { 
+    width: 60px;
+    height: 70px;
+    top: 86%;
+    left: 6%;
+    position: absolute;
+    stroke-width: 4;
+    overflow: visible;
+    
+  }
+  .path6 svg .path{ 
+    width: 60px;
+    height: 60px;
+  }
+
+  .path7{
+    width: 300px;
+    height: 70px;
+    top: 76%;
+    left: 40%;
+    position: absolute;
+    stroke-width: 4;
+    overflow: visible;
+    
+    
+  }
+
+  .pathRocket svg{
+    transform: rotate(90deg);
+  }
+
+  .trail{
+    width: 50px;
+  }
+
+  @media (max-width: 1000px) {
+    .RectangleView {
+        position: relative;
+        overflow: scroll;
+        display: none;
+        border: solid;
+        width: 600px !important;
+        height: auto !important; /* <<< beaucoup plus fiable et responsive */
+        min-height: 600px; /* optionnel pour garder un layout propre */
+      
+      }
+      .Schema {
+        max-width: 100%;
+      }
+      .pathRocket{
+        width: 150px;
+      }
+}
+
