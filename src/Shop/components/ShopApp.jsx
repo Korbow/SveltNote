@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Banner from './Banner'
-import logo from '../../assets/img/featherSVG.svg'
+import logo from '../../../public/assets/img/featherSVG.svg'
 import Cart from './Cart'
 
 import ShoppingList from './ShoppingList'

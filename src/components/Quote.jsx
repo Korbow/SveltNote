@@ -74,11 +74,11 @@ function Quote() {
   return (
     <> 
 
-          <img className="Appear_Book" src="../src/assets/img/Quote/sketchbook.png" />
+          <img className="Appear_Book" src="assets/img/Quote/sketchbook.png" />
 
-          <img className="Appear_Pen" src="../src/assets/img/Quote/OBS_crayon.png" />
+          <img className="Appear_Pen" src="assets/img/Quote/OBS_crayon.png" />
 
-          <img className="Appear_Paper" src="../src/assets/img/Quote/Sticker_de_suivi.png" />
+          <img className="Appear_Paper" src="assets/img/Quote/Sticker_de_suivi.png" />
 
 
       <div>

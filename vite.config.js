@@ -1,12 +1,17 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { resolve } from 'path'
 
 export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: 'src/components/main.jsx', // ton point d’entrée réel
-    }
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        shop: resolve(__dirname, 'shop.html')
+      }
+    },
+    outDir: 'dist'
   },
-  base: '/<SveltNote>/' // pour GitHub Pages
+  base: '/SveltNote/'
 })

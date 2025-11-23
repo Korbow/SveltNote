@@ -12,7 +12,7 @@ function PreFooter() {
         <div className="PreFooter">
             <div className="FlexPreFooter">
                 <div className="PreFooterCadreA">
-                  <img id="Cadre1img" src="..\src\assets\img\OBS\OBS_book.png"></img>
+                  <img id="Cadre1img" src="assets\img\OBS\OBS_book.png"></img>
                 </div>
                 <div className="Ticket">
                   <h5 id="h5line">
@@ -20,13 +20,13 @@ function PreFooter() {
                     
                   </h5>
                   
-                  <a id="pline" href="./src/Shop/shop.html" class="btn-shine">
+                  <a id="pline" href="./shop.html" class="btn-shine">
                     [ Click here to see all our products ]
                   </a>
 
                 </div>
                 <div className="PreFooterCadreB">
-                <img id="Cadre1img" src="..\src\assets\img\Product/Calendrier_avant_la_mort.png"></img>
+                <img id="Cadre1img" src="assets\img\Product/Calendrier_avant_la_mort.png"></img>
                 </div>
             </div>
         </div>

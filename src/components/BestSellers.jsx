@@ -162,7 +162,7 @@ function BestSellers() {
                     >
                     <div className="ContainerCase First">
                         <div className="card">
-                            <img src="../src/assets/img/OBS/OBS_lifetracker.png" alt="" />
+                            <img src="assets/img/OBS/OBS_lifetracker.png" alt="" />
                             <section>
                                 <h2>Life Tracker</h2>
                                 <p>An elegant tool to track your goals and daily well-being</p>
@@ -191,7 +191,7 @@ function BestSellers() {
                     >
                     <div className="ContainerCase Second">
                         <div className="card">
-                            <img src="../src/assets/img/OBS/OBS_crayon.png" alt="" />
+                            <img src="assets/img/OBS/OBS_crayon.png" alt="" />
                             <section>
                                 <h2>Simple pencil</h2>
                                 <p>Simple pencil ×3 </p>
@@ -219,7 +219,7 @@ function BestSellers() {
                     >
                     <div className="ContainerCase">
                         <div className="card">
-                            <img src="../src/assets/img/OBS/OBS_book.png" alt="" />
+                            <img src="assets/img/OBS/OBS_book.png" alt="" />
                             <section>
                                 <h2>Minimalist Notebook</h2>
                                 <p>A minimalist journal to capture your ideas, dreams, and inspirations.</p>

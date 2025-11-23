@@ -205,7 +205,7 @@ function IconsValue() {
                         >
                 <div  className="IconsValueUnit">
                     <div className="Box">
-                        <img src="../src/assets/img/icons/ICON_reforestation.png"></img>
+                        <img src="assets/img/icons/ICON_reforestation.png"></img>
                     </div>
                     <div className="LabelBoxIcons">
                         <p>Reforestation actor</p>
@@ -226,7 +226,7 @@ function IconsValue() {
                     >
                 <div  className="IconsValueUnit">
                     <div className="Box">
-                        <img src="../src/assets/img/icons/ICON_qualitepremium.png"></img>
+                        <img src="assets/img/icons/ICON_qualitepremium.png"></img>
                     </div>
                     <div className="LabelBoxIcons">
                         <p>Premium quality</p>
@@ -249,7 +249,7 @@ function IconsValue() {
                     >
                 <div  className="IconsValueUnit">
                     <div className="Box">
-                        <img src="../src/assets/img/icons/ICON_recyclable.png"></img>
+                        <img src="assets/img/icons/ICON_recyclable.png"></img>
                     </div>
                     <div className="LabelBoxIcons">
                         <p>Recyclable</p>
@@ -271,7 +271,7 @@ function IconsValue() {
                     >
                     <div  className="IconsValueUnit">
                         <div className="Box">
-                            <img src="../src/assets/img/icons/ICON_savoirfaire.png"></img>
+                            <img src="assets/img/icons/ICON_savoirfaire.png"></img>
                         </div>
                         <div className="LabelBoxIcons">
                             <p>Fnow-how</p>
@@ -282,7 +282,7 @@ function IconsValue() {
         </div>
         <div className="DescValues">
           <div className="DescValuesContainerImg" ref={ContainerImg}>
-            <img src="../src/assets/img/DescValueSco.png"></img>
+            <img src="assets/img/DescValueSco.png"></img>
           </div>
           <div className="DescValuesContainerText" ref={ContainerText}>
             <h2>
